@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
-    "preview": "vite preview --port 4173",
+    "preview": "vite preview --port 80",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "e:dev": "yarn build && cp -r electron/. dist && cd dist && yarn && yarn dev",
